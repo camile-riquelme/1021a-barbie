@@ -33,19 +33,19 @@ return (
           onChange={handleChange}
         />
 
-        <label>E-mail:</label>
-        <input
-          type="email"
-          name="email"
-          value={formData.email}
-          onChange={handleChange}
-        />
-
         <label>Telefone:</label>
         <input
           type="tel"
           name="telefone"
           value={formData.telefone}
+          onChange={handleChange}
+        />
+        
+        <label>E-mail:</label>
+        <input
+          type="email"
+          name="email"
+          value={formData.email}
           onChange={handleChange}
         />
 
@@ -60,8 +60,8 @@ return (
 
       <div className="feedback">
         <p>Nome digitado: {formData.nome}</p>
-        <p>E-mail digitado: {formData.email}</p>
         <p>Telefone digitado: {formData.telefone}</p>
+        <p>E-mail digitado: {formData.email}</p>
         <p>Endereço digitado: {formData.endereco}</p>
       </div>
     </div>
