@@ -1,9 +1,8 @@
-import Imagem from "./../../assets/barbie.png"
 import './Filme.css'
 type FilmeProps = {
-    titulo:string;
-    sinopse:string;
-    imagem:string;
+    titulo:string,
+    sinopse:string,
+    imagem:string
 }
 function Filme(props:FilmeProps){
     return(

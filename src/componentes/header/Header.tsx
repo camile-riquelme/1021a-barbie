@@ -1,10 +1,10 @@
 import './Header.css'
-import Link from './../link/Link'
+import Link from '../linknav/LinkNav'
 function Header(){
     return(
         <header>
             <div>
-                <h1>Barbie</h1>
+                <h1>Doramas</h1>
             </div>
             <nav>
                 <ul>
@@ -12,13 +12,13 @@ function Header(){
                         <Link texto='Home'/>
                     </li>
                     <li>
-                        <Link texto='Notícia'/>
+                        <Link texto='Doramas'/>
                     </li>
                     <li>
                         <Link texto='Sobre'/>
                     </li>
                     <li>
-                        <Link texto='Contatos'/>
+                        <Link texto='Contato'/>
                     </li>
                 </ul>
             </nav>
